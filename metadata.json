@@ -1,0 +1,6 @@
+{
+  "name": "General Pet Shop - Banho, Tosa e Veterinária em Cascavel",
+  "description": "Landing page de alta conversão do General Pet Shop em Cascavel/PR. Agendamento via WhatsApp de Banho, Tosa, Consultas Veterinárias, Táxi Pet e Rações.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

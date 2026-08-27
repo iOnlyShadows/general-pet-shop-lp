@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #FDFCF8;
+    color: #2D2D2D;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+    letter-spacing: -0.025em;
+  }
+}
+
+/* Custom smooth pulse and floating effects */
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.92; }
+}
+
+@keyframes ripple {
+  0% { transform: scale(0.9); opacity: 0.8; }
+  100% { transform: scale(1.8); opacity: 0; }
+}
+
+.animate-float {
+  animation: float-slow 4s ease-in-out infinite;
+}
+
+.animate-ripple {
+  animation: ripple 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+/* Section scroll offset for fixed header */
+section[id] {
+  scroll-margin-top: 88px;
+}
+
+/* Artistic Flair theme helpers */
+.bg-art-canvas {
+  background-color: #FDFCF8;
+}
+
+.bg-art-green {
+  background-color: #2D6A4F;
+}
+
+.bg-art-green-dark {
+  background-color: #1B4332;
+}
+
+.bg-art-terracotta {
+  background-color: #F4A261;
+}
+
+.text-art-green {
+  color: #2D6A4F;
+}
+
+.text-art-terracotta {
+  color: #F4A261;
+}
+
+.border-art-border {
+  border-color: #E9E7E0;
+}
+
+.bg-art-cream {
+  background-color: #FFF9F0;
+}
+
+
