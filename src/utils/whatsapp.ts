@@ -1,9 +1,9 @@
 /**
  * Helper to generate official WhatsApp link for General Pet Shop
- * Primary required link: https://wa.me/554530373103
+ * Primary required link: https://wa.me/554599624623
  */
 
-const BASE_WA_URL = 'https://wa.me/554530373103';
+const BASE_WA_URL = 'https://wa.me/554599624623';
 
 export function createWhatsAppLink(customMessage?: string): string {
   if (!customMessage || !customMessage.trim()) {

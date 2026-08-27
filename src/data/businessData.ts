@@ -19,8 +19,8 @@ export const BUSINESS_INFO = {
     raw: '+55 45 9962-4623',
   },
   whatsapp: {
-    baseUrl: 'https://wa.me/554530373103',
-    numberFormatted: '(45) 3037-3103 / (45) 9962-4623',
+    baseUrl: 'https://wa.me/554599624623',
+    numberFormatted: '(45) 9962-4623',
   },
   googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=General%20Pet%20Shop%20R.%20Padre%20Anchieta%2C%20245%20-%20Parque%20S%C3%A3o%20Paulo%20Cascavel%20PR',
   instagramUrl: 'https://www.instagram.com/generalpetshop/',
